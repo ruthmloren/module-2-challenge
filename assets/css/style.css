@@ -1,0 +1,43 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #757BC8;
+}
+
+.site-heading {
+    display: inline-block;
+    color: #757BC8;
+    background-color: #BBADFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.nav {
+    display: inline-block;
+    color: #BBADFF;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.wrapper {
+
+}
+
+.subtitle {
+    display: inline-block;
+    background-color: #BBADFF;
+    color: #757BC8;
+}

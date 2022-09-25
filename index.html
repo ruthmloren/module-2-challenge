@@ -7,44 +7,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--stylesheets below-->
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="css-reset" href="./assets/css/reset.css">
+  <link rel="cssreset" href="./assets/css/reset.css"> 
   <title>Ruth Lorenzo // Web Developer</title>
 </head>
 
 <body>
+
   <!-- logo, navigation bar -->
-  <header>
-    <h1>Ruth Lorenzo</h1>
-    <nav>
-      <!-- links to different sections in the page -->
-      <a href="#aboutme">About Me</a>
-      <a href="#work">Work</a>
-      <a href="#cotactme">Contact Me</a>
-      <a href="#resume">Resume</a>
+  <header class="site-header">
+    <div class="site-heading">
+        <h1>Ruth Lorenzo</h1>
+    </div>
+    <!-- links to different sections in the page -->
+    <nav class="site-navigation">
+        <ul class="nav">
+             <a href="aboutme">About Me</a>
+             <a href="work">Work</a>
+             <a href="contactme">Contact Me</a>
+             <a href="resume">Resume</a>
+       </ul>
     </nav>
-    <img src="./assets/images/header-placeholder-image.png" alt="palceholder header image">
-        <h2>Cool subtitle here!</h2>
-  </header>
-  
-  <!-- subtitle -->
-  <section>
-    <h2>Subtitle</h2>
-  </section>
+</header>
+
+<!--subtitle-->
+<div class="wrapper">
+        <img src="./assets/images/image-1.jpeg" alt="placeholder image" width="100%">
+        <h3 class="subtitle">Cool subtitle here!</h3>
+</div>
+
 
   <main>
     <!-- about me section -->
     <section>
-
+        <h2>About Me</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut tellus vitae urna blandit interdum eget vehicula eros. Pellentesque libero ipsum, fermentum vitae viverra sed, iaculis ac sem. Cras et laoreet ex, in efficitur ipsum. Morbi eu auctor nisl. Proin nec leo sit amet massa pulvinar rhoncus eu eu libero. Praesent sodales velit nisi, ut maximus libero sagittis nec. Quisque mollis est id urna pellentesque, ultricies tempor turpis ornare. Cras massa sapien, aliquet non neque non, rhoncus sodales nisi. Morbi non elementum neque. Praesent tristique risus orci, id sodales nisi viverra vel. Integer volutpat porta venenatis. Morbi libero dolor, rutrum eu tempus sit amet, ullamcorper a urna.
+            </p>
     </section>
 
     <!-- portfolio section -->
     <section>
-
+        <h2>Work</h2>
     </section>
 
     <!-- contact section -->
     <section>
-
+       <h2>Contact Me</h2>
+        <a href="#phonenumber">305-720-0492</a>
+        <a href="ruthmloren@gmail.com">ruthmloren@gmail.com</a>
+        <a href="https://github.com/ruthmloren">GitHub</a>
+        <a href="twitter.com">Twitter</a>
+        <a href="spotify.com">Spotify</a>
     </section>
   </main>
 </body>
