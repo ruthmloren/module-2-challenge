@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,40 +13,44 @@
 <body>
 
   <!-- logo, navigation bar -->
-  <header class="site-header">
-    <div class="site-heading">
+  <header>
+    <div>
         <h1>Ruth Lorenzo</h1>
     </div>
     <!-- links to different sections in the page -->
-    <nav class="site-navigation">
-        <ul class="nav">
-             <a href="aboutme">About Me</a>
-             <a href="work">Work</a>
-             <a href="contactme">Contact Me</a>
-             <a href="resume">Resume</a>
+    <nav>
+        <ul class="navbar">
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+          <li><a href="#resume">Resume</a></li>
        </ul>
     </nav>
 </header>
 
-<!--subtitle-->
-<div class="wrapper">
-        <img src="./assets/images/image-1.jpeg" alt="placeholder image" width="100%">
-        <h3 class="subtitle">Cool subtitle here!</h3>
-</div>
+<!--subtitle with hero image-->
+<section class="hero">
+  <div class="hero-h2">
+    <h2>Welcome to my portfolio!</h2>
+    <img src="./assets/images/image-1.jpeg" alt="placeholder image" width="100%">
+  </div>
+</section>
 
 
-  <main>
+  
     <!-- about me section -->
-    <section>
-        <h2>About Me</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut tellus vitae urna blandit interdum eget vehicula eros. Pellentesque libero ipsum, fermentum vitae viverra sed, iaculis ac sem. Cras et laoreet ex, in efficitur ipsum. Morbi eu auctor nisl. Proin nec leo sit amet massa pulvinar rhoncus eu eu libero. Praesent sodales velit nisi, ut maximus libero sagittis nec. Quisque mollis est id urna pellentesque, ultricies tempor turpis ornare. Cras massa sapien, aliquet non neque non, rhoncus sodales nisi. Morbi non elementum neque. Praesent tristique risus orci, id sodales nisi viverra vel. Integer volutpat porta venenatis. Morbi libero dolor, rutrum eu tempus sit amet, ullamcorper a urna.
-            </p>
+    <section class="about-me">
+      <div class="title-container">
+        <h2 class= section-title>About Me</h2>
+      </div>
+      <div class="about-me-text">
+            <p>Hi! I'm Ruth. I'm a 26 year old woman living in Miami, FL with my husband and three year old daughter. I have a BA in Psychology and hold a title of Registered Behavior Technician with experience executing Applied Behavior Analysis with children on the Autism Spectrum. I am currently learning to code through UCF's Web Development bootcamp and am looking forward to learning a lot the next three months!</p>
+      </div>
     </section>
 
-    <!-- portfolio section -->
+    <!-- work section -->
     <section>
-        <h2>Work</h2>
+      <h2>Work</h2>
     </section>
 
     <!-- contact section -->
@@ -59,7 +62,7 @@
         <a href="twitter.com">Twitter</a>
         <a href="spotify.com">Spotify</a>
     </section>
-  </main>
+
 </body>
 
 </html>
