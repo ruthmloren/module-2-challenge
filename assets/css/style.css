@@ -94,8 +94,8 @@ li a:hover {
 }
 
 .about-me-container {
+    display: flex;
     position: absolute;
-    width: fit-content;
 }
 
 .about-me-head {
@@ -119,51 +119,73 @@ li a:hover {
     width: 70%;
 }
 
-.content-head p {
-    color: pink);
-    align-items: flex-end;
-    text-align: end;
-    font-size: 40PX;
-    padding: 10px;
-    padding-right: 30px;
-    padding-left: 30px;
-    margin-top: 10px;
+.work-container {
+    display: flex;
+    position: absolute;
 }
 
-.content-body p {
-    font-size: 16px;
-    border-left: 2px solid black;
-    padding: 0px 10px 10px 20px;
+
+.work-head {
+    align-items: center;
+    font-size: 40px;
+    padding: 10px 20px 5px 50px;
+    margin-top: 3%;
+    width: 20%;
+    border-right: solid rgb(255, 144, 163) 3px;
+    color: white;
+    background-color: pink;
+    position: relative;
+}
+
+.work-body {
+    position: relative;
     display: flex;
 }
 
-.container {
-    width: 100%;
-    border-left: 2px solid black;
-    color: white;
-}
-
-.img-short {
+.img-placeholder {
+    display: flex;
     width: 100%;
     margin-left: 10%;
     background: linear-gradient(#ffffff, #9198e5);    
     border: 2px solid #9198e5;
-    margin: 5px;
+    padding: 50px;
+    margin: 20%;
 }
 
 
 .img-text {
     background-color: pink;
     display: inline-block;
+    color: white;
     padding: 10px;
     margin-left: 0;
     margin-top: 30%;
 }
 
-.in-div-container {
-    display: flex;
-    flex-wrap: stretch;
-    align-content: space-between;
+
+.contact-container {
+    position: absolute;
+}
+
+.contact-head {
+    align-items: center;
+    font-size: 40px;
+    padding: 10px 20px 5px 50px;
+    margin-top: 3%;
+    width: 20%;
+    border-right: solid rgb(255, 144, 163) 3px;
+    color: white;
+    background-color: pink;
+    position: relative;
+}
+
+.contact-body {
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    overflow: none;
+    width: 70%;
 }
 
 .socials {
