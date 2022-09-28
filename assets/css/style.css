@@ -93,19 +93,30 @@ li a:hover {
     align-items: flex-end;
 }
 
-.contents {
-    display: flex;
+.about-me-container {
+    position: absolute;
+    width: fit-content;
 }
 
-.content-head {
-    align-items: flex-start;
-    margin-left: 2%;
+.about-me-head {
+    align-items: center;
+    font-size: 40px;
+    padding: 10px 20px 5px 50px;
+    margin-top: 3%;
     width: 20%;
+    border-right: solid rgb(255, 144, 163) 3px;
+    color: white;
+    background-color: pink;
+    position: relative;
 }
 
-.content-body {
-    align-items: flex-start;
-    width: 50%%;
+.about-me-content {
+    display: inline-block;
+    position: relative;
+    left: 250px;
+    bottom: 150px;
+    overflow: none;
+    width: 70%;
 }
 
 .content-head p {
